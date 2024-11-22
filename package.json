@@ -17,7 +17,7 @@
   "homepage": "https://github.com/Harshalkatakiya/version-radar",
   "scripts": {
     "build": "tsc",
-    "start": "bun run build && node dist/index.js"
+    "start": "npm run build && node dist/index.js"
   },
   "files": [
     "src/**/*",
