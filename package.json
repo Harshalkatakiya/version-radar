@@ -1,0 +1,60 @@
+{
+  "name": "versionradar",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Harshalkatakiya",
+  "description": "Version Radar is a dynamic Node.js (TypeScript) application that monitors a software's webpage for version updates.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harshalkatakiya/version-radar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Harshalkatakiya/version-radar/issues"
+  },
+  "homepage": "https://github.com/Harshalkatakiya/version-radar",
+  "scripts": {
+    "build": "tsc",
+    "start": "bun run build && node dist/index.js"
+  },
+  "files": [
+    "src/**/*",
+    "package.json",
+    "tsconfig.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "web-scraping",
+    "version-tracking",
+    "nodejs",
+    "typescript",
+    "cron",
+    "email-notifications",
+    "mongodb",
+    "express",
+    "cheerio",
+    "nodemailer"
+  ],
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.9.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^6.4.17",
+    "typescript": "^5.6.3"
+  }
+}
